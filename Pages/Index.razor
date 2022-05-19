@@ -1,0 +1,19 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Welcome to FileShare</h1>
+<p>Upload an image or file below to receive your share link</p>
+
+<section class="file-upload p-4 d-flex justify-content-center w-100 border rounded">
+  <div class="wrapper py-5 px-4 rounded">
+    <div class="messages text-center">
+      <i class="fas fa-cloud-upload-alt cloud-icon mb-2"></i>
+      <p class="default-message mb-0">Drag and drop<br>or click here to upload files</p>
+      <p class="error-message mt-3">Some error has occurred</p>
+    </div>
+    <progress style="height:50px;width:100%;" value="" max=""></progress>
+    <div class="mask"></div>
+    <div class="file-preview"></div>
+  </div>
+</section>
